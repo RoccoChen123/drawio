@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-23T09:49:01.070Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="2TzRDRCC03bD1pmuAcKW" version="18.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-24T07:35:47.530Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="O6c7n3jzZDDS1t7Y2xcH" version="18.1.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2051" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1878" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -94,9 +94,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="D85AezqRSi7aLYV9_FRw-14" value="&lt;div style=&quot;&quot;&gt;計算剩餘預算 = 新預算 - 已花費&lt;/div&gt;&lt;div style=&quot;&quot;&gt;計算主題預算 = 剩餘預算 * 主題預算配比&lt;/div&gt;&lt;div style=&quot;&quot;&gt;計算主題裝置預算 = 主題預算 * 主題裝置配比&lt;/div&gt;&lt;div style=&quot;&quot;&gt;update removed media enable = 0&lt;/div&gt;&lt;div style=&quot;&quot;&gt;update new periods &amp;amp; budget &amp;amp; 主題&lt;/div&gt;&lt;div style=&quot;&quot;&gt;insert new PCD with medias&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=center;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="430" y="50" width="290" height="90" as="geometry" />
+          <mxGeometry x="435" y="50" width="290" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="8HmFovyHqstTYCY-DPdb-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="D85AezqRSi7aLYV9_FRw-16" target="8HmFovyHqstTYCY-DPdb-0">
+        <mxCell id="8HmFovyHqstTYCY-DPdb-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="D85AezqRSi7aLYV9_FRw-16" target="8HmFovyHqstTYCY-DPdb-0" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="575" y="228" as="sourcePoint" />
           </mxGeometry>
@@ -115,44 +115,44 @@
         <mxCell id="D85AezqRSi7aLYV9_FRw-19" value="&lt;br&gt;合約主題設定" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="660" y="181" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8HmFovyHqstTYCY-DPdb-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8HmFovyHqstTYCY-DPdb-0" target="8HmFovyHqstTYCY-DPdb-3">
+        <mxCell id="8HmFovyHqstTYCY-DPdb-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8HmFovyHqstTYCY-DPdb-0" target="8HmFovyHqstTYCY-DPdb-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8HmFovyHqstTYCY-DPdb-0" value="計算新剩餘天數 = 新 end_date - (today, start_date).max + 1&lt;br&gt;計算新每日預算 = 主題裝置預算&amp;nbsp;/ 新剩餘天數&lt;br&gt;delete where c_date &amp;gt;= today&lt;br&gt;insert dailyreach" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="8HmFovyHqstTYCY-DPdb-0" value="計算新剩餘天數 = 新 end_date - (today, start_date).max + 1&lt;br&gt;計算新每日預算 = 主題裝置預算&amp;nbsp;/ 新剩餘天數&lt;br&gt;delete where c_date &amp;gt;= today&lt;br&gt;insert dailyreach" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="406" y="268" width="350" height="82" as="geometry" />
         </mxCell>
-        <mxCell id="8HmFovyHqstTYCY-DPdb-3" value="&lt;br&gt;PC&lt;br&gt;&amp;nbsp;DailyReach" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="8HmFovyHqstTYCY-DPdb-3" value="&lt;br&gt;PC&lt;br&gt;&amp;nbsp;DailyReach" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="551" y="388" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8HmFovyHqstTYCY-DPdb-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8HmFovyHqstTYCY-DPdb-8" target="D85AezqRSi7aLYV9_FRw-16">
+        <mxCell id="8HmFovyHqstTYCY-DPdb-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8HmFovyHqstTYCY-DPdb-8" target="D85AezqRSi7aLYV9_FRw-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8HmFovyHqstTYCY-DPdb-8" value="Media" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="8HmFovyHqstTYCY-DPdb-8" value="Media" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="440" y="181" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8HmFovyHqstTYCY-DPdb-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="WIyWlLk6GJQsqaUBKTNV-10">
+        <mxCell id="8HmFovyHqstTYCY-DPdb-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="WIyWlLk6GJQsqaUBKTNV-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="10" y="280" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8HmFovyHqstTYCY-DPdb-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8HmFovyHqstTYCY-DPdb-16" target="WIyWlLk6GJQsqaUBKTNV-10">
+        <mxCell id="8HmFovyHqstTYCY-DPdb-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8HmFovyHqstTYCY-DPdb-16" target="WIyWlLk6GJQsqaUBKTNV-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8HmFovyHqstTYCY-DPdb-16" value="Campaign 剩餘可用預算&lt;br&gt;= Campaign.budget -&lt;br&gt;Campaign.PCS.sum do |PC|&lt;br&gt;if PC.status in (&#39;closed&#39;, &#39;aborted&#39;)&lt;br&gt;PC.已花費&lt;br&gt;else PC.budget" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="8HmFovyHqstTYCY-DPdb-16" value="Campaign 剩餘可用預算&lt;br&gt;= Campaign.budget -&lt;br&gt;Campaign.PCS.sum do |PC|&lt;br&gt;if PC.status in (&#39;closed&#39;, &#39;aborted&#39;)&lt;br&gt;PC.已花費&lt;br&gt;else PC.budget" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-260" y="235" width="270" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="8HmFovyHqstTYCY-DPdb-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8HmFovyHqstTYCY-DPdb-19" target="D85AezqRSi7aLYV9_FRw-8">
+        <mxCell id="8HmFovyHqstTYCY-DPdb-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8HmFovyHqstTYCY-DPdb-19" target="D85AezqRSi7aLYV9_FRw-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8HmFovyHqstTYCY-DPdb-21" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8HmFovyHqstTYCY-DPdb-20">
+        <mxCell id="8HmFovyHqstTYCY-DPdb-21" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="8HmFovyHqstTYCY-DPdb-20" vertex="1" connectable="0">
           <mxGeometry x="0.2194" relative="1" as="geometry">
             <mxPoint x="-15" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8HmFovyHqstTYCY-DPdb-19" value="是新建立AdGroup?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="8HmFovyHqstTYCY-DPdb-19" value="是新建立AdGroup?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-160" y="368" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="8HmFovyHqstTYCY-DPdb-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8HmFovyHqstTYCY-DPdb-19" target="D85AezqRSi7aLYV9_FRw-14">
+        <mxCell id="8HmFovyHqstTYCY-DPdb-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8HmFovyHqstTYCY-DPdb-19" target="D85AezqRSi7aLYV9_FRw-14" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-50" y="428" as="sourcePoint" />
             <mxPoint x="400" y="240" as="targetPoint" />
@@ -163,7 +163,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="8HmFovyHqstTYCY-DPdb-23" value="Yes&lt;br&gt;&lt;div style=&quot;&quot;&gt;已花費 = 0&lt;/div&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8HmFovyHqstTYCY-DPdb-22">
+        <mxCell id="8HmFovyHqstTYCY-DPdb-23" value="Yes&lt;br&gt;&lt;div style=&quot;&quot;&gt;已花費 = 0&lt;/div&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" parent="8HmFovyHqstTYCY-DPdb-22" vertex="1" connectable="0">
           <mxGeometry x="0.2194" relative="1" as="geometry">
             <mxPoint x="-510" y="-17" as="offset" />
           </mxGeometry>
